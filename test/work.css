@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(214, 214, 226);
+}
+#container{
+    width: 500px;
+    height: 900;
+    background-color: white;
+    align-items: center;
+    margin: 50% auto;
+
+}
+.section-heading h1{
+    display: inline-block;
+    margin: 2px 0px 0px 130px;
+}
+.sub-heading{
+    display: inline-block;
+    margin: 0px 0px 0px 60px ;
+    color: grey;
+}
+
+#container .wrap{
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 20px;
+    position: relative;
+
+}
+#container .input-wrapper .icon{
+height: 20;
+width: 20;
+position: absolute;
+left: 100;
+
+
+}
